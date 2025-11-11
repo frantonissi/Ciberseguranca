@@ -36,4 +36,3 @@ Aqui eu vou armazenar anotações, pequenos scripts e experimentos que estou est
 | 🐍 Linguagens | `Python`, `Bash`, `C` (básico) |
 
 ---
-https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjc5dnVhNDNmYmh4cGEzMGp1NWlwa3hqOXR1NXNkaXl4bXNqZnYyciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif

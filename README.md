@@ -37,10 +37,3 @@ Aqui eu vou armazenar anotações, pequenos scripts e experimentos que estou est
 
 ---
 
-## 📁 Estrutura do Repositório
-```bash
-📂 cyber-lab/
-├── assets/                # imagens e gifs
-├── notes/                 # anotações e guias
-├── scripts/               # scripts em Python e Bash
-└── README.md

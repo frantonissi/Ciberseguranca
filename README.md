@@ -1,4 +1,4 @@
-# Ciberseguran-a
+# Ciberseguranca
 
 <!-- Banner ou GIF de abertura -->
 <div align="center">

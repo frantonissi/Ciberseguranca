@@ -36,4 +36,3 @@ Aqui eu vou armazenar anotações, pequenos scripts e experimentos que estou est
 | 🐍 Linguagens | `Python`, `Bash`, `C` (básico) |
 
 ---
-

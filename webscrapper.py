@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
-url_base = "http://books.toscrape.com/"
+url_base = "https://store.steampowered.com/?l=portuguese"
 
 pagina = requests.get(url_base) #visitar um site
 

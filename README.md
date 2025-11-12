@@ -16,6 +16,7 @@
 ## 🚀 Sobre o Projeto
 Este repositório é o meu espaço de aprendizado sobre **cibersegurança**.  
 Aqui eu vou armazenar anotações, pequenos scripts e experimentos que estou estudando, tudo de forma **educacional e ética**.
+NÃO ME RESPONSABILIZO POR MAU USO DOS MEUS PROGRAMAS!!!
 
 ---
 

@@ -17,7 +17,10 @@
 Este repositório é o meu espaço de aprendizado sobre **cibersegurança**.  
 Aqui eu vou armazenar anotações, pequenos scripts e experimentos que estou estudando, tudo de forma **educacional e ética**.
 
-NÃO ME RESPONSABILIZO POR MAU USO DOS MEUS PROGRAMAS!!!
+
+> ⚠️ **Aviso — Uso Educacional e Responsabilidade**
+>
+> Este repositório tem **fins exclusivamente educacionais** e foi desenvolvido para estudos e testes em **ambientes controlados** (máquinas virtuais, laboratórios locais ou redes onde você tem permissão). **Não use estes scripts contra sistemas ou redes sem autorização expressa e documentada**. O autor não se responsabiliza por uso indevido deste material. Ao utilizar esse conteúdo você concorda em respeitar as leis e políticas aplicáveis.
 
 ---
 

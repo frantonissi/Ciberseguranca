@@ -1,5 +1,6 @@
 import sys
 import requests
+import time
 
 host = sys.argv[1]
 wordlist = sys.argv[2]
@@ -14,3 +15,4 @@ for i in file.readlines():
     
     if code != 404:
         print(code, url)
+    time.sleep(1)

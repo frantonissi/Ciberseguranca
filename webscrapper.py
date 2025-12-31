@@ -6,7 +6,7 @@ url_base = "https://store.steampowered.com/?l=portuguese"
 
 pagina = requests.get(url_base) #visitar um site
 
-soup = BeautifulSoup(pagina.text, "html.parser")
+soup = BeautifulSoup(pagina.text, "html.parser") #“Pegue o HTML bruto da página e transforme em uma estrutura organizada que eu consigo navegar e buscar elementos.”
 
 links = soup.find_all("a")
 

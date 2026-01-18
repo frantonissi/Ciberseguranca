@@ -6,8 +6,8 @@ $con = "mysql:host=localhost;dbname=exemplo";
 $pdo = new PDO($con, "admin", "senhafoda123"); //aqui o php pede pra entrar no banco de dados, se as credenciais estiverem certas, o PDO deixa acessar
 
 
-$email = $_GET["email"];
-$senha = $_GET["senha"];
+$email = ClearStr($_GET["email"]);
+$senha = ClearStr($_GET["senha"]);
 
 $sql = $pdo->prepare("select * from usuarios where usuario = '".$email."' and senha = '".$senha."'"); //o banco usando a conecao PDO pede pra fazer a sql (a verificacao)
 $sql -> execute();
@@ -19,6 +19,19 @@ if (count($linhas)>0){ //se der certo, vai dar uma linha, entao ele conta uma li
 }else{
 	echo"acesso negado";
 }
+
+function ClearStr($str){
+	$str = str_replace("'", "", $str);
+	$str = str_replace('"', '', $str);
+	$str = str_replace("#", "", $str);
+	$str = str_replace("(", "", $str);
+	$str = str_replace(")", "", $str);
+	$str = str_replace(" ", "", $str);
+
+	return $str;
+
+}
+
 
 //echo $email . " " . $senha;
 

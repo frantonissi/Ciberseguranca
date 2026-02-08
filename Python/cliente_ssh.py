@@ -9,8 +9,8 @@ senha = getpass.getpass('Digite a senha: ')
 
 ssh = paramiko.SSHClient()
 
-ssh.connect(host, port, username, senha)
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy)
+ssh.connect(host, port, username, senha)
 
 stdin, stdout, stderr = ssh.exec_command('ls') #retorna 3 valores: STDIN, STDOUT,STDERR 
 #STDIN = o valor do comando que enviou

@@ -16,7 +16,7 @@ stdin, stdout, stderr = ssh.exec_command('ls') #retorna 3 valores: STDIN, STDOUT
 #STDIN = o valor do comando que enviou
 #STDOUT = o valor da saido do comando
 
-print(stdout.read())
+print(stdout.read().decode)
 
 ssh.close()
 

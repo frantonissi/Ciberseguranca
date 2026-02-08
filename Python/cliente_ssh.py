@@ -18,5 +18,6 @@ stdin, stdout, stderr = ssh.exec_command('ls') #retorna 3 valores: STDIN, STDOUT
 
 print(stdout.read())
 
+ssh.close()
 
 

